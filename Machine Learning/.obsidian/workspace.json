@@ -1,0 +1,187 @@
+{
+  "main": {
+    "id": "00dd34d88b6a2edc",
+    "type": "split",
+    "children": [
+      {
+        "id": "fd06abfdca75c3a3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "61fb838fd02be6b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Batch Learning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ba979d339a8a6282",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "82aa943009ccde47",
+    "type": "split",
+    "children": [
+      {
+        "id": "9516828acfb2e059",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0273315c857b2ab4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a135a5dd59a09215",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "85c2c802a228b738",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6ffab4d5f0cef005",
+    "type": "split",
+    "children": [
+      {
+        "id": "862d7a2d1f9af1ba",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1f941b367ea476bc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5fc97cbb91a1cbd3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "518d78f73b0abe99",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "22bae2ea34b4835f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-importer:Open Importer": false
+    }
+  },
+  "active": "ba979d339a8a6282",
+  "lastOpenFiles": [
+    "Supervised Learning.md",
+    "Machine Learning.md",
+    "Batch Learning.md",
+    "Reinforcement Learning.md",
+    "Semisupervised Learning.md",
+    "Unsupervised Learning.md",
+    "Apple Notes/Books.md",
+    "Apple Notes/Area/Machine Learning/Hands On Machine Learning with Scikit learn, Keras and TensorFlow.md",
+    "Apple Notes/Universities for Masters  1. University of Edinburgh  2. University….md",
+    "Apple Notes/Area/WEB D/Website.md",
+    "Apple Notes/Area/Machine Learning/Maths for Machine Learning.md",
+    "Apple Notes/TO DO (ALL THE PENDING THINGS).md",
+    "Apple Notes/Area/CARS/CARS.md",
+    "Apple Notes/Area/DATA STRUCTURES AND ALGORITHMS/TO Go through again.md",
+    "Apple Notes/Quick Notes(Updated Daily).md",
+    "Apple Notes/Area/Machine Learning/ML(Expertise).md",
+    "Apple Notes Attachments/Pasted Graphic.png",
+    "Apple Notes Attachments",
+    "Apple Notes/Area/WEB D",
+    "Apple Notes/Area/Machine Learning",
+    "Apple Notes/Area/DATA STRUCTURES AND ALGORITHMS",
+    "Apple Notes/Area/CARS",
+    "Apple Notes/Projects",
+    "Apple Notes/Area/BOOKS",
+    "Apple Notes/Area",
+    "Apple Notes",
+    "Welcome.md",
+    "create a link.md"
+  ]
+}
