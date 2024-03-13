@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5fe4143-7da9-4d6a-ab62-869ef06e9737" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Ensemble Learning and Random Forests.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DecisionTreesCh6.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/DecisionTreesCh6.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/decision_trees/tree_regression_plot.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/decision_trees/tree_regression_plot.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
