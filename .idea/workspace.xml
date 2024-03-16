@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5fe4143-7da9-4d6a-ab62-869ef06e9737" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Machine Learning/Dimensionality Reduction.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ensemble Learning and Random Forests.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Ensemble Learning and Random Forests.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
