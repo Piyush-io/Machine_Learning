@@ -1,4 +1,4 @@
-# Semissupervised Learning
+# Semisupervised Learning
 
 In semisupervised learning the models are trained on a mixture of data, meaning some contain labels while some don't. Most semi supervised learning models are a combination of unsupervised learning and supervised learning algorithms.
 One example is :
