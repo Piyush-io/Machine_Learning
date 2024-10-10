@@ -1,0 +1,8 @@
+[[snippets]]
+scope = "python"
+prefix = "cell"
+body = """
+# %% Cell ${1:1}
+$0
+"""
+description = "Create a single cell"
