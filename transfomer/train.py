@@ -7,6 +7,7 @@ import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader, random_split
 from torch.optim.lr_scheduler import LambdaLR
+from torch.optim.adam import Adam
 
 import warnings
 from tqdm import tqdm
@@ -21,7 +22,7 @@ from tokenizers.trainers import WordLevelTrainer
 from tokenizers.pre_tokenizers import Whitespace
 
 import torchmetrics
-from torch.utils.tensorboard import SummaryWriter
+from torch.utils.tensorboard.writer import SummaryWriter
 
 def greedy_decode(model, source, source_mask, tokenizer_src, tokenizer_tgt, max_len, device):
     sos_idx = tokenizer_tgt.token_to_id('[SOS]')
@@ -179,11 +180,11 @@ def get_model(config, vocab_src_len, vocab_tgt_len):
 
 def train_model(config):
     # Define the device
-    device = "cuda" if torch.cuda.is_available() else "mps" if torch.has_mps or torch.backends.mps.is_available() else "cpu"
+    device = "cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu"
     print("Using device:", device)
     if (device == 'cuda'):
-        print(f"Device name: {torch.cuda.get_device_name(device.index)}")
-        print(f"Device memory: {torch.cuda.get_device_properties(device.index).total_memory / 1024 ** 3} GB")
+        print(f"Device name: {torch.cuda.get_device_name(torch.cuda.current_device())}")
+        print(f"Device memory: {torch.cuda.get_device_properties(torch.cuda.current_device()).total_memory / 1024 ** 3} GB")
     elif (device == 'mps'):
         print(f"Device name: <mps>")
     else:
@@ -200,7 +201,7 @@ def train_model(config):
     # Tensorboard
     writer = SummaryWriter(config['experiment_name'])
 
-    optimizer = torch.optim.Adam(model.parameters(), lr=config['lr'], eps=1e-9)
+    optimizer = Adam(model.parameters(), lr=config['lr'], eps=1e-9)
 
     # If the user specified a model to preload before training, load it
     initial_epoch = 0
